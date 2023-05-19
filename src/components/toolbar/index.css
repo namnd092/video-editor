@@ -1,0 +1,44 @@
+.tool-bar {
+    position: fixed;
+    width: 50px;
+    height: 100%;
+    background-color: #262835;
+    color: #fff;
+    z-index: 100;
+}
+
+.tool-bar-item {
+    /* margin-bottom: 20px; */
+    width: 100%;
+    padding: 10px 0 1px;
+}
+
+.tool-bar-item.active {
+    background-color: #36394bd8;
+}
+.tool-bar-item.active .tool-bar-icon {
+    color: #fff;
+}
+.tool-bar-item.active .tool-bar-item-title {
+    color: #fff;
+}
+
+.tool-bar-item:hover {
+    background-color: #36394bd8;
+}
+
+.tool-bar-item:hover .tool-bar-icon {
+    color: #fff;
+}
+.tool-bar-item:hover .tool-bar-item-title {
+    color: #fff;
+}
+
+.tool-bar-icon {
+    color: #7d7f8e;
+}
+
+.tool-bar-item-title {
+    color: #7d7f8e;
+    font-size: 10px;
+}
